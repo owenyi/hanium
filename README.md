@@ -1,2 +1,2 @@
 # hanium
-2020 hanium project - management of ingredients
+2020 hanium project - Intelligent Food Ingredients Management X E-Commerce
