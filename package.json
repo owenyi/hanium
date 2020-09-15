@@ -1,0 +1,22 @@
+{
+  "name": "2020hanium",
+  "version": "1.0.0",
+  "description": "2020 hanium project - management of ingredients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owenyi/hanium.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owenyi/hanium/issues"
+  },
+  "homepage": "https://github.com/owenyi/hanium#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
