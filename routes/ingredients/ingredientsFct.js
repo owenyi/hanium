@@ -11,3 +11,25 @@ exports.getIngredients = async(idx) => {
         });
     });
 }
+
+exports.searchIngredients = async(keyword) => {
+    let sqlStr = await sql.searchIngredients(keyword);
+    return new Promise((resolve, reject) => {
+        db.query(sqlStr, (error, rows) => {
+            if(error) reject(0);
+            else resolve(rows);
+        });
+    });
+}
+
+exports.insertRefrigerator = async(user_idx, ingredients_idx, buyDate) => {
+    let sqlStr = await sql.insertRefrigerator(user_idx, ingredients_idx, buyDate);
+    return new Promise((resolve, reject) => {
+        db.query(sqlStr, (error) => {
+            if(error) reject(0);
+            else resolve(1);
+        });
+    });
+}
+
+
