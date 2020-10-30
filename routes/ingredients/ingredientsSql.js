@@ -16,7 +16,7 @@ exports.getIngredients = async(idx) => {
 
 exports.searchIngredients = async(keyword) => {
     sql = `
-    SELECT idx, name FROM tb_ingredients WHERE NAME LIKE '%${keyword}%';
+    SELECT * FROM tb_ingredients WHERE NAME LIKE '%${keyword}%';
     `;
     return sql;
 }

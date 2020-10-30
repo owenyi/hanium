@@ -9,4 +9,6 @@ router.get('/searchIngredients', ingredients.searchIngredients);
 
 router.post('/insertRefrigerator', ingredients.insertRefrigerator);
 
+//router.get('/url', ingredients.fct);
+
 module.exports = router;

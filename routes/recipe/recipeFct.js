@@ -62,15 +62,7 @@ exports.getRecommendedRecipe = async(idx) => {
     });
 }
 
-exports.postRecipe = async(recipe, ingredients, description) => {
-    let sqlStr = await sql.postRecipe(recipe, ingredients, description);
-    return new Promise((resolve, reject) => {
-        db.query(sqlStr, (error) => {
-            if(error) reject(0);
-            else resolve(1);
-        });
-    });
-};
+//exports.postRecipe
 
 exports.searchRecipe = async(keyword) => {
     let sqlStr = await sql.searchRecipe(keyword);

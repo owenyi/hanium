@@ -9,7 +9,7 @@ router.get('/getIngredientsInRecipe', recipe.getIngredientsInRecipe);
 
 router.get('/getRecommendedRecipe', recipe.getRecommendedRecipe);
 
-router.post('/postRecipe', recipe.postRecipe);
+//router.post('/postRecipe', recipe.postRecipe);
 
 router.get('/searchRecipe', recipe.searchRecipe);
 

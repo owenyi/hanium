@@ -18,7 +18,7 @@ exports.getIngredients = async(req, res, next) => {
             returnJson.res_Data = result;
             res.send(returnJson);
         })
-            .catch((e) => {
+            .catch(() => {
             returnJson.res_State = "sql_error";
             returnJson.res_Msg = "잠시 후에 시도해주세요.";
             res.send(returnJson);
