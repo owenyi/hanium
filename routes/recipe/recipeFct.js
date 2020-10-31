@@ -62,10 +62,31 @@ exports.getRecommendedRecipe = async(idx) => {
     });
 }
 
-//exports.postRecipe
+exports.postRecipe = async(recipe, ingredients, description, titleImage, descriptionImage) => {
+    let sqlStr = await sql.postRecipe(recipe, ingredients, description, titleImage, descriptionImage);
+    return new Promise((resolve, reject) => {
+        db.query(sqlStr, (error) => {
+            if(error) {
+                //console.log(error);
+                reject(0);
+            }
+            else resolve(1);
+        });
+    });
+};
 
 exports.searchRecipe = async(keyword) => {
     let sqlStr = await sql.searchRecipe(keyword);
+    return new Promise((resolve, reject) => {
+        db.query(sqlStr, (error, rows) => {
+            if(error) reject(0);
+            else resolve(rows);
+        });
+    });
+}
+
+exports.postRecipeToBasket = async(user_idx, recipe_idx) => {
+    let sqlStr = await sql.postRecipeToBasket(user_idx, recipe_idx);
     return new Promise((resolve, reject) => {
         db.query(sqlStr, (error, rows) => {
             if(error) reject(0);
