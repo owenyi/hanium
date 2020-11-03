@@ -32,4 +32,14 @@ exports.insertRefrigerator = async(user_idx, ingredients_idx, buyDate) => {
     });
 }
 
+exports.postIngredientsToBasket = async(user_idx, ingredients_idx, ingredients_name) => {
+    let sqlStr = await sql.postIngredientsToBasket(user_idx, ingredients_idx, ingredients_name);
+    return new Promise((resolve, reject) => {
+        db.query(sqlStr, (error) => {
+            if(error) reject(0);
+            else resolve(1);
+        });
+    });
+}
+
 
