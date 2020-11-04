@@ -18,7 +18,7 @@ exports.getIngredients = async(req, res, next) => {
             returnJson.res_Data = result;
             res.send(returnJson);
         })
-            .catch(() => {
+            .catch((e) => {
             returnJson.res_State = "sql_error";
             returnJson.res_Msg = "잠시 후에 시도해주세요.";
             res.send(returnJson);
@@ -70,6 +70,32 @@ exports.insertRefrigerator = async(req, res, next) => {
             .then(() => {
             returnJson.res_State = "success";
             returnJson.res_Msg = "냉장고에 성공적으로 넣었습니다.";
+            res.send(returnJson);
+        })
+            .catch(() => {
+            returnJson.res_State = "sql_error";
+            returnJson.res_Msg = "잠시 후에 시도해주세요.";
+            res.send(returnJson);
+        });
+    } catch(e) {
+        console.error(e);
+        next(createError(404, e));
+    }
+}
+
+exports.postIngredientsToBasket = async(req, res, next) => {
+    try{
+        let returnJson = new Object();
+        
+        returnJson.res_State = "";
+        returnJson.res_Msg = "";
+
+        let {user_idx, ingredients_idx, ingredients_name} = req.body;
+
+        await query.postIngredientsToBasket(user_idx, ingredients_idx, ingredients_name)
+            .then(() => {
+            returnJson.res_State = "success";
+            returnJson.res_Msg = "장바구니에 성공적으로 넣었습니다.";
             res.send(returnJson);
         })
             .catch(() => {
