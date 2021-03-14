@@ -8,11 +8,11 @@ from sklearn.neighbors import NearestNeighbors
 #db connection
 #pymysql
 db = pymysql.connect(
-    host='54.180.140.180',
+    host='ipaddress',
     port=3306,
     user='root',
-    passwd='1q2w3e4r!!',
-    db='footdb',
+    passwd='passwd',
+    db='db',
     charset='utf8'
 )
 cursor = db.cursor()
