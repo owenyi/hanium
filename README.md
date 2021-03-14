@@ -3,5 +3,7 @@
   
 소개  
 수상  
-wiki link  
+이미지  
+논문 링크  
 youtube link  
+api docs(wiki) link  
