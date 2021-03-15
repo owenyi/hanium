@@ -1,7 +1,7 @@
 # hanium
 2020 hanium project - Intelligent Food Ingredients Management X E-Commerce  
   
-소개  
+# 소개  
 수상  
 이미지  
 논문 링크  
