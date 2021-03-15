@@ -4,13 +4,13 @@
 # 소개  
 
 # 성과  
-### 한이음 공모전 입선 [시연(youtube)](https://www.youtube.com/watch?v=hYwN-_jjMM4)  
+### 한이음 공모전 입선 
 ![image](https://user-images.githubusercontent.com/67588446/111149024-b0734180-85cf-11eb-9d20-bc86fe457f88.png)  
-
+#### 시연(youtube) : (https://www.youtube.com/watch?v=hYwN-_jjMM4)  
 ### 한이음 학술대회 참가
-발표(youtube) : https://www.youtube.com/watch?v=5zSMExgf2hM&list=PLqOnM6uAPZc73r6IQ4WlNWWONovzGe27I&index=123  
+#### 발표(youtube) : https://www.youtube.com/watch?v=5zSMExgf2hM&list=PLqOnM6uAPZc73r6IQ4WlNWWONovzGe27I&index=123  
 ### KIPS 2020 온라인 추계학술발표대회 논문게재
-논문 : https://manuscriptlink-society-file.s3-ap-northeast-1.amazonaws.com/kips/conference/2020fall/presentation/KIPS_C2020B0129.pdf  
+#### 논문 : https://manuscriptlink-society-file.s3-ap-northeast-1.amazonaws.com/kips/conference/2020fall/presentation/KIPS_C2020B0129.pdf  
 
 # API DOCS
 
