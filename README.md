@@ -20,21 +20,25 @@
   <summary>상세 내용 확인</summary>
   <div markdown="1">
     
-| 구분 | type | description | remark |
+ 
+    
+| 구분 | 개발환경 | 개발도구 | 개발언어 |
 | --- | ---  | ----------- | ------ |
-|id|str|아이디|이메일 형식|
-|pw|str|비밀번호||
-|pw2|str|비밀번호 확인||
-|userName|str|이름||
-|age|**int**|나이||
-|expectedDate|str|출산예정일||
+|Server|VSCode|Node.js|JavaScript|
+|DB|HeidiSQL|MySQL|MySQL|
+|\*CF|Pycharm|-|Python|
+
+\*CF : Collaborative Filtering
 
   </div>
 </details>
 
 
 # API DOCS
-
+<details>
+  <summary>상세 내용 확인</summary>
+  <div markdown="1">
+    
 * USER
   * [[POST] 회원가입](https://github.com/owenyi/hanium/wiki/%5BPOST%5D-회원가입)
   * [[POST] 로그인](https://github.com/owenyi/hanium/wiki/%5BPOST%5D-로그인)
@@ -73,3 +77,5 @@
 * CHATBOT
   * [[GET] 챗봇](https://github.com/owenyi/hanium/wiki/%5BGET%5D-챗봇)
 
+  </div>
+</details>
