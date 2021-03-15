@@ -14,9 +14,17 @@
 
 # 메뉴 구성도 등
 
-# 개발환경
+
 <details>
+  <summary>
   <div markdown="1">
+    
+# 개발환경
+ 
+    </div>
+  </summary>
+  <div markdown="1">
+  
 | 구분 | type | description | remark |
 | --- | ---  | ----------- | ------ |
 |id|str|아이디|이메일 형식|
@@ -25,6 +33,7 @@
 |userName|str|이름||
 |age|**int**|나이||
 |expectedDate|str|출산예정일||
+
     </div>
 </details>
 
