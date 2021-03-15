@@ -54,7 +54,7 @@
   <div markdown="1">
     
 ### 1. S/W
-![image](https://user-images.githubusercontent.com/67588446/111154477-9c7f0e00-85d6-11eb-910c-fa350920ef6a.png)
+![image](https://user-images.githubusercontent.com/67588446/111156860-8de62600-85d9-11eb-8c2c-d820330bb290.png)
 ### 2. H/W
 ![image](https://user-images.githubusercontent.com/67588446/111154512-a4d74900-85d6-11eb-9773-dd0cada70bfb.png)
 ### 3. 서비스흐름도
@@ -63,19 +63,26 @@
   </div>
 </details>
 
-# BE 개발환경
+# 개발환경
 <details>
   <summary>상세 내용 확인</summary>
   <div markdown="1">
-    
+       
+### BE
 | 구분 | 개발환경 | 개발도구 | 개발언어 |
 | ----- | --------- | --------- | --------- |
 |Server|VSCode|Node.js|JavaScript|
 |DB|HeidiSQL|MySQL|MySQL|
 |\*CF|Pycharm|-|Python|
 
-\*CF : Collaborative Filtering
-
+\*CF : Collaborative Filtering  
+  
+### INFRA-AWS
+| 구분 | 서비스 |
+|Computing|EC2 CentOS7|
+|Storage|S3|
+|CDN|CloudFront|
+  
   </div>
 </details>
 
