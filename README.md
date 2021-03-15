@@ -79,9 +79,15 @@
   
 ### INFRA-AWS
 | 구분 | 서비스 |
+| --------- | ------------- |
 |Computing|EC2 CentOS7|
 |Storage|S3|
 |CDN|CloudFront|
+  
+### FE
+|구분|개발환경|개발도구|개발언어|
+|--|--| -- |--|
+|Front|Android Studio| - | Java |
   
   </div>
 </details>
