@@ -19,7 +19,7 @@
 <details>
   <summary>상세 내용 확인</summary>
   <div markdown="1">
-  
+    
 | 구분 | type | description | remark |
 | --- | ---  | ----------- | ------ |
 |id|str|아이디|이메일 형식|
@@ -29,7 +29,7 @@
 |age|**int**|나이||
 |expectedDate|str|출산예정일||
 
-    </div>
+  </div>
 </details>
 
 
