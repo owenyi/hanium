@@ -15,14 +15,9 @@
 # 메뉴 구성도 등
 
 
-<details>
-  <summary>
-  <div markdown="1">
-    
 # 개발환경
- 
-    </div>
-  </summary>
+<details>
+  <summary>상세 내용 확인</summary>
   <div markdown="1">
   
 | 구분 | type | description | remark |
