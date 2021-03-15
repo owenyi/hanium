@@ -2,6 +2,13 @@
 ### 2020 hanium project - Intelligent Food Ingredients Management X E-Commerce  
   
 # 소개  
+### 음식물 쓰레기 문제 해결을 위한 식재료 지능화 관리
+  * 식재료 구매부터 폐기까지 정보 및 기능 제공(검색, 챗봇)
+  * 식재료 보관기한 임박 알림
+  * 레시피 추천 알고리즘
+### 보통의 냉장고를 스마트 냉장고화
+  * 국내 스마트 냉장고의 기술을 갖고 있는 앱 서비스
+  * IOT 장비를 이용한 냉장고 원격 관리
 
 # 성과  
 ### 한이음 공모전 입선 
@@ -12,18 +19,57 @@
 ### KIPS 2020 온라인 추계학술발표대회 논문게재
 논문 : https://manuscriptlink-society-file.s3-ap-northeast-1.amazonaws.com/kips/conference/2020fall/presentation/KIPS_C2020B0129.pdf  
 
-# 메뉴 구성도 등
-
-
-# 개발환경
+# 요구사항
 <details>
   <summary>상세 내용 확인</summary>
   <div markdown="1">
     
- 
+### S/W
+| 기능 | 설명 |
+| --------------- | -------------------------------------------------- |
+|보관기한 확인|보관기한 임박한 식재료의 목록을 확인|
+|보관기한 임박 알림|보관기한 임박한 식재료 푸시 알림|
+|장바구니에 식재료 추가|이커머스 사이트에 검색 및 구매 링크 연결|
+|레시피 CRUD|레시피 등록, 검색, 수정, 삭제|
+|레시피 추천|식재료 보관기한과 추천 알고리즘에 기반한 레시피 추천|
+|식재료 검색|사용자가 원하는 식재료 검색|
+|식재료 정보|사용자가 원하는 식재료의 정보 제공|
+|AI 챗봇|사용자가 원하는 질문을 입력하면 그에 맞는 응답을 제공하는 챗봇|
+|회원정보 관리|회원가입, 로그인, 회원정보 수정, 알림 설정|
+
+### H/W
+| 기능 | 설명 |
+| --------------- | -------------------------------------------------- |
+|냉장고 내부 온도 측정|온도 센서를 통해 냉장고 내부 온도 측정|
+|냉장고 내부 습도 측정|습도 센서를 통해 냉장고 내부 습도 측정|
+|냉장고 내부 확인|카메라 모듈을 통해 냉장고 내부 확인|
+|웹 서버 연결|웹 서버와 연동하여 통신하고, 각 센서로부터 측정 값을 수신|
+
+  </div>
+</details>
+
+# 설계
+<details>
+  <summary>상세 내용 확인</summary>
+  <div markdown="1">
+    
+### 1. S/W
+![image](https://user-images.githubusercontent.com/67588446/111154477-9c7f0e00-85d6-11eb-910c-fa350920ef6a.png)
+### 2. H/W
+![image](https://user-images.githubusercontent.com/67588446/111154512-a4d74900-85d6-11eb-9773-dd0cada70bfb.png)
+### 3. 서비스흐름도
+![image](https://user-images.githubusercontent.com/67588446/111154553-ae60b100-85d6-11eb-968f-a947ceb3ea2c.png)
+
+  </div>
+</details>
+
+# BE 개발환경
+<details>
+  <summary>상세 내용 확인</summary>
+  <div markdown="1">
     
 | 구분 | 개발환경 | 개발도구 | 개발언어 |
-| --- | ---  | ----------- | ------ |
+| ----- | --------- | --------- | --------- |
 |Server|VSCode|Node.js|JavaScript|
 |DB|HeidiSQL|MySQL|MySQL|
 |\*CF|Pycharm|-|Python|
