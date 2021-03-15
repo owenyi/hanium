@@ -12,6 +12,23 @@
 ### KIPS 2020 온라인 추계학술발표대회 논문게재
 논문 : https://manuscriptlink-society-file.s3-ap-northeast-1.amazonaws.com/kips/conference/2020fall/presentation/KIPS_C2020B0129.pdf  
 
+# 메뉴 구성도 등
+
+# 개발환경
+<details>
+  <div markdown="1">
+| 구분 | type | description | remark |
+| --- | ---  | ----------- | ------ |
+|id|str|아이디|이메일 형식|
+|pw|str|비밀번호||
+|pw2|str|비밀번호 확인||
+|userName|str|이름||
+|age|**int**|나이||
+|expectedDate|str|출산예정일||
+    </div>
+</details>
+
+
 # API DOCS
 
 * USER
