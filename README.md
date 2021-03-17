@@ -72,7 +72,7 @@
 | 구분 | 개발환경 | 개발도구 | 개발언어 |
 | ----- | --------- | --------- | --------- |
 |Server|VSCode|Node.js|JavaScript|
-|DB|HeidiSQL|MySQL|MySQL|
+|DB|HeidiSQL|MySQL|SQL|
 |\*CF|Pycharm|-|Python|
 
 \*CF : Collaborative Filtering  
