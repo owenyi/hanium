@@ -60,7 +60,7 @@
 ### 3. 서비스흐름도
 ![image](https://user-images.githubusercontent.com/67588446/111154553-ae60b100-85d6-11eb-968f-a947ceb3ea2c.png)
 ### 4. ERD
-![image](https://user-images.githubusercontent.com/67588446/111985465-fc823100-8b4f-11eb-96d3-abc71e0f27dd.png)
+![image](https://user-images.githubusercontent.com/67588446/111985595-24719480-8b50-11eb-8958-df8a0c61104a.png)
 
   </div>
 </details>
